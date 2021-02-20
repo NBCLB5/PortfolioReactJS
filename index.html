@@ -1,65 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-  <head>
-    <title>My Virtual Pet project</title>
-
-    <!--<link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">-->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/0777d29f2c.js" crossorigin="anonymous"></script>
-    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" /> -->
-   <!-- <script href="client.js"></script> -->
-  </head>
-
-  <body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ReactJS TicTacToe page</title>
+        <link ref="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/0777d29f2c.js" crossorigin="anonymous"></script>
+    </head>
 
     <Header>
-      <h1><strong>Under construction and is coming soon!</h1></strong></h1>
-      <img class="img" src="UC.jpeg" alt="Under Construction">
-      <h1>Thinkful Virtual pet turtorial webinar by Nathan Banek
-        <a href="https://github.com/NBCLB5/PortfolioReactJS" class="#"
-          target="_blank">View progress of the page here<i class="fas fa-code"></i></a>
-      </h1><br>
-      <h1>
-        My Virtual Pet Project
-      </h1>
-    </header>
+        <h1><strong>Under construction and is coming soon!</h1></strong></h1>
+        <h1><strong>Check out the progress by viewing the GitHub Repositories</strong></h1>
+        <img class="img" src="UC.jpeg" alt="Under Construction">
+    </Header>
 
-    <main>
-      <section class="pet-image-container">
-        <img class="pet-image" src="https://i.pinimg.com/736x/f0/91/69/f09169fcda560053a5550f144a52b8b5.jpg">
-      </section>
-      <section class="dashboard">
-        <div>Name: <strong><span class="name"></span></strong></div>
-        <div>Weight: <strong><span class="weight"></span> pounds</strong></div>
-        <div>Happiness: <strong><span class="happiness"></span> tail wags (per min)</strong></div>
-        <div class="button-container">
-          <button class="treat-button">
-            Treat
-          </button>
-          <button class="play-button">
-            Play
-          </button>
-          <button class="exercise-button">
-            Exercise
-          </button>
-        </div>
-      </section>
-    </main>
 
-    <!-- 
-    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
-      integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00=" crossorigin="anonymous"></script>
-    <script src="/client.js"></script> -->
+    <!--
 
+    <body>
+
+<div id="errors" style="
+  background: #c00;
+  color: #fff;
+  display: none;
+  margin: -20px -20px 20px;
+  padding: 20px;
+  white-space: pre-wrap;
+"></div>
+<div id="root"></div>
+<script>
+    window.addEventListener('mousedown', function (e) {
+        document.body.classList.add('mouse-navigation');
+        document.body.classList.remove('kbd-navigation');
+    });
+    window.addEventListener('keydown', function (e) {
+        if (e.keyCode === 9) {
+            document.body.classList.add('kbd-navigation');
+            document.body.classList.remove('mouse-navigation');
+        }
+    });
+    window.addEventListener('click', function (e) {
+        if (e.target.tagName === 'A' && e.target.getAttribute('href') === '#') {
+            e.preventDefault();
+        }
+    });
+    window.onerror = function (message, source, line, col, error) {
+        var text = error ? error.stack || error : message + ' (at ' + source + ':' + line + ':' + col + ')';
+        errors.textContent += text + '\n';
+        errors.style.display = '';
+    };
+    console.error = (function (old) {
+        return function error() {
+            errors.textContent += Array.prototype.slice.call(arguments).join(' ') + '\n';
+            errors.style.display = '';
+            old.apply(this, arguments);
+        }
+    })(console.error);
+</script>
   </body>
-  <footer>
-  </footer>
+-->
+    <footer>TicTacToe Game created following the ReactJS.org tutorial
+        <a href="https://github.com/NBCLB5/NBportfolio/blob/main/responsive%20web%20design/TicTacToe%20reactjs/Index.html"
+            class="#" target="_blank">View progress of the page here<i class="fas fa-code"></i></a>
+    </footer>
 
-</html>
-
-</html>
+</Html>
